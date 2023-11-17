@@ -37,4 +37,4 @@ print(1.23)
 ```
 ### Результат.
 
-![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема2/pic/laba2_1.png)
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_1.png)
