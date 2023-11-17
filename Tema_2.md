@@ -38,3 +38,140 @@ print(1.23)
 ### Результат.
 
 ![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_1.png)
+
+## Лабораторная работа №2
+
+-----
+
+### Выведите в консоль три строки. Первая – любое число. Вторая – любое число в виде строки. Третья – любое число с плавающей точкой.
+```python
+print(123+123)
+print(2.1+5.8)
+print(2+6.2+7)
+```
+
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_2.png)
+
+## Лабораторная работа №3
+
+-----
+
+###  Выведите в консоль три строки. Первая – обычная строка. Вторая – F строка с ипользованием заранее объявленной переменной. Третья – сложите две или более строк в одну.
+```python
+print("Hello world")
+world = "Мир"
+print(f"Привет {world}!")
+one = "Hello "
+two = "world"
+print(one+two)
+```
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_3.png)
+
+## Лабораторная работа №4
+
+-----
+
+###  Выведите в консоль три строки. Первая – трансформация любого типа переменной в bool. Вторая – трансформация любого типа переменной в float или int. Третья – трансформация любого типа переменной в str
+```python
+one = "Hello"
+print(bool(one))
+
+two = 123
+print(float(two))
+
+three = None
+print(str(three))
+```
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_4.png)
+
+## Лабораторная работа №5
+
+-----
+
+###   Присвойте трем переменным различные значения, воспользовавшись функцией input()
+```python
+one = input("one:")
+two = input("two:")
+three = input("three:")
+print(one, two, three)
+```
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_5.png)
+
+## Лабораторная работа №6
+
+-----
+
+###   Создайте две любые числовые переменные и выполните над ними несколько математических операций: возведение в степень, обычное деление, целочисленное деление, нахождение остатка от деления. При желании вы можете проверить как работают эти вычисления с разными типами данных, например, сначала создать две переменные int, затем создать две переменные float и наконец создать переменные типа int и float и провести над ними операции, прописанные выше.
+```python
+a = 5
+b = 12
+print("Возведение в степень:", a**b)
+print("Обычное деление:", a/b)
+print("Целочисленное деление:", a//b)
+print("Нахождение остатка от деления:", a%b)
+```
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_6.png)
+
+## Лабораторная работа №7
+
+-----
+
+###    Создайте любую строковую переменную и произведите над ней математическое действие умножение на любое число.
+```python
+line = "Hello "
+print(line*6)
+```
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_7.png)
+
+## Лабораторная работа №8
+
+-----
+
+###     Посчитайте сколько раз символ ‘o’ встречается в строке ‘Hello World’
+```python
+sentence = "Hello world"
+print(sentence.count("o"))
+```
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_8.png)
+
+## Лабораторная работа №9
+
+-----
+
+### Напишите предложение ‘Hello World’ в две строки. Написанная программа должна занимать одну строку в редакторе кода
+```python
+print("Hello \nworld")
+```
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_9.png)
+
+## Лабораторная работа №10
+
+-----
+
+###  Из предложения ‘Hello World’ выведите в консоль только 2 символ, а затем выведите слово ‘Hello’
+```python
+sentence = "Hello world"
+print(sentence[1])
+print(sentence[:5])
+```
+### Результат.
+
+![](https://github.com/a-a-sinuta/Software_Engineering/blob/Тема_2/pic/laba2_10.png)
+
+
